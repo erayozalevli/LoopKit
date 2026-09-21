@@ -21,15 +21,15 @@ extension ExponentialInsulinModelPreset {
     public var actionDuration: TimeInterval {
         switch self {
         case .rapidActingAdult:
-            return .minutes(180)
+            return .minutes(360)
         case .rapidActingChild:
-            return .minutes(180)
+            return .minutes(360)
         case .fiasp:
-            return .minutes(180)
+            return .minutes(360)
         case .lyumjev:
-            return .minutes(180)
+            return .minutes(360)
         case .afrezza:
-            return .minutes(180)
+            return .minutes(300)
         }
     }
 
